@@ -2,6 +2,7 @@
 include "./../App/configuracao.php";
 include "./../App/Libraries/Rota.php";
 include "./../App/Libraries/Controller.php";
+include "./../App/Libraries/Database.php";
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -17,8 +18,8 @@ include "./../App/Libraries/Controller.php";
 
     <?php
     include "../app/views/header.php";
-    include "../app/views/footer.php";
     $rotas = new Rota();
+    include "../app/views/footer.php";
    // $rotas->url();
     ?>
     

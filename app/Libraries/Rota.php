@@ -21,7 +21,7 @@ class Rota{
       }//fim do if que verifica se a url existe
       $this->parametros = $url ? array_values($url) : [];
       call_user_func_array([$this->controlador, $this->metodo], $this->parametros);     
-      var_dump($this);
+      // esse codigo faz aparecer uns negocios var_dump($this);
    }
       
 
